@@ -20,3 +20,22 @@ body, html{
     background-color: blue;
     color: white;
 }
+img.img-xucxac{
+    width: 80px;
+}
+
+@media screen and (max-width: 576px){
+    .btnChoose{
+        height: 90px;
+        width: 90px;
+        font-size: 30px;
+    }
+    img.img-xucxac{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 520px){
+    img.img-xucxac{
+        width: 50px;
+    }
+}

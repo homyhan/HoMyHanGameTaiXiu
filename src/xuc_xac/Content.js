@@ -6,7 +6,7 @@ class Content extends Component {
     renderAnh =()=>{
         let {arr} = this.props
         return arr.map((item, index)=>{
-            return <img key={index} style={{width: 80}} src={item.hinhAnh}></img>
+            return <img key={index} className='img-xucxac' src={item.hinhAnh}></img>
         })
     }
     render() {
