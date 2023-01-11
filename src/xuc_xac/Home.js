@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div style={{backgroundImage: 'url(./img/bgGame.png)', width: '100%', height: '100%'}}>
         <div className="container">
-          <h1 style={{padding: '40px 0px'}} className="text-center">GAME TẢI XỈU </h1>
+          <h1 style={{padding: '40px 0px'}} className="text-center">GAME TÀI XỈU </h1>
           <Content></Content>
           <Result></Result>
         </div>
